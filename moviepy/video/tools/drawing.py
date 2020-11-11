@@ -130,7 +130,7 @@ def color_gradient(
         p2 = np.array(p2[::-1])
         vector = p2 - p1
     else:
-        vector = np.array(vector[::-1])
+        vector = np.array(p1[::-1])
         p2 = p1 + vector
 
     if vector is not None:
